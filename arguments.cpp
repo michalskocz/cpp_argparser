@@ -110,7 +110,7 @@ void Parser::printHelp() const {
 
   cout << this->name << " v" << version << endl;
   cout << this->description << endl << endl;
-  cout << "Usage" << name << " [options]" << endl;
+  cout << "Usage:" << tab << name << " [options]" << endl;
   cout << "Options:" << endl;
   cout << tab << '-' << hShort << ", " << "--" << hLong << tab2 << hDes << endl;
   cout << tab << '-' << vShort << ", " << "--" << vLong << tab2 << vDes << endl;
